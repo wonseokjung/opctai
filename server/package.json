@@ -1,10 +1,11 @@
 {
-  "name": "opct-server",
+  "name": "codex-server",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "server": "opct server"
+    "server": "nodemon server",
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -12,5 +13,10 @@
     "express": "^4.18.2",
     "nodemon": "^2.0.20",
     "openai": "^3.1.0"
-  }
+  },
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
